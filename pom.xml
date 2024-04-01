@@ -9,6 +9,9 @@
 
     <modules>
         <module>common</module>
+        <module>registry</module>
+        <module>core</module>
+        <module>test</module>
     </modules>
 
     <properties>
@@ -18,12 +21,6 @@
         <spring-boot.version>2.7.6</spring-boot.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>cn.huayq</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
